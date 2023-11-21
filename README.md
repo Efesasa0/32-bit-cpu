@@ -32,4 +32,20 @@
 
 12. **`MEMWBPipelineRegister.v`**: The MEM/WB pipeline register, used in the final stages of the pipeline.
 
-13. **`PcAdder.v
+13. **`PcAdder.v`**: A program counter adder module, responsible for calculating the next instruction address.
+
+14. **`ProgramCounter.v`**: The module implementing the program counter, keeping track of the current instruction address.
+
+15. **`RegisterFile.v`**: Implements the CPU's register file, storing and providing access to the processor's registers.
+
+16. **`RegrtMultiplexer.v`**: A multiplexer module for the register target, used in determining the correct register for data write-back.
+
+17. **`WriteBackMultiplexer.v`**: This Verilog file implements a multiplexer for the write-back stage, selecting the correct data to be written back to the register file.
+
+18. **`testbench.v`**: The testbench Verilog file for simulating and testing the CPU design and its operations.
+
+19. **`Project Report.pdf`**: The comprehensive project report detailing the CPU design, its architecture, the implementation process, and the outcomes. Includes schematics and waveform analyses demonstrating the CPU's functionality.
+
+- **Project Insights**: The project successfully demonstrates the implementation of a pipelined CPU optimized for recall and speed. It highlights the challenges and intricacies involved in designing and simulating a CPU with basic operation capabilities in a pipelined architecture.
+
+_This project underscores the practical aspects of computer architecture and digital system design, emphasizing the role of pipelining and forwarding in enhancing CPU performance._
